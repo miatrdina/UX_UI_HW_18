@@ -1,0 +1,44 @@
+/* Add this CSS to style the divs as squares spaced out equally */
+
+.project-portfolio-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item {
+    width: calc(25% - 20px); /* 4 squares equally spaced with 20px margin between them */
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-info h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.project-info p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Additional styles for the VIEW ALL PROJECTS heading */
+.section:last-of-type h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
